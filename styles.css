@@ -183,9 +183,10 @@ p {
 
 h1 {
   margin-bottom: 12px;
-  font-size: clamp(3.4rem, 6.6vw, 6.7rem);
-  line-height: 0.92;
+  font-size: clamp(3.1rem, 5.35vw, 5.8rem);
+  line-height: 0.98;
   letter-spacing: 0;
+  white-space: nowrap;
 }
 
 .hero-title {
@@ -647,7 +648,8 @@ h1 {
   }
 
   h1 {
-    font-size: clamp(3.5rem, 16vw, 6rem);
+    font-size: clamp(3rem, 12.5vw, 5.2rem);
+    white-space: normal;
   }
 
   .timeline article {
