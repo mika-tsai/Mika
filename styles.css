@@ -68,46 +68,10 @@ p {
 }
 
 .brand-mark {
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 54px;
-  height: 28px;
-  border: 1px solid rgba(112, 77, 59, 0.28);
-  border-radius: 7px 7px 3px 3px;
-  background:
-    linear-gradient(90deg, transparent 0 9px, rgba(211, 163, 69, 0.25) 9px 12px, transparent 12px),
-    linear-gradient(135deg, var(--rice), var(--plate));
-  color: var(--ember);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 0.76rem;
-  font-weight: 900;
-  letter-spacing: 0.02em;
-  box-shadow: 0 8px 18px rgba(112, 77, 59, 0.14);
-}
-
-.brand-mark::before {
-  content: none;
-}
-
-.brand-mark::after {
-  content: "";
-  position: absolute;
-  right: 6px;
-  bottom: -6px;
-  width: 8px;
-  height: 12px;
-  background: var(--blue);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 72%, 0 100%);
-}
-
-.brand-mark {
-  isolation: isolate;
-}
-
-.brand-mark {
-  text-shadow: 0 1px 0 rgba(255, 239, 226, 0.7);
+  display: block;
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
 }
 
 
