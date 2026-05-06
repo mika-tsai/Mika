@@ -485,7 +485,18 @@ h1 {
 }
 
 .timeline h3 {
+  display: flex;
+  align-items: center;
+  gap: 9px;
   margin-bottom: 4px;
+}
+
+.timeline-logo {
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border-radius: 5px;
 }
 
 .publication-list {
