@@ -188,13 +188,14 @@ p {
 }
 
 h1 {
-  max-width: 650px;
+  max-width: 100%;
   margin-bottom: 24px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: clamp(3.45rem, 7.5vw, 7.45rem);
+  font-size: clamp(3.4rem, 5.7vw, 6.2rem);
   font-weight: 900;
   line-height: 0.84;
   letter-spacing: 0;
+  white-space: nowrap;
 }
 
 .hero-title {
